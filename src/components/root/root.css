@@ -4,11 +4,39 @@
     background-color: rgba(0, 0, 0, 0.488);
     padding: 1rem;
     margin: 3rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
-h1{
-    margin:2rem;
+.title{
+    margin:1rem 1rem 1rem 0;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:1rem;
+}
+
+button{
+    border-radius:2rem;
+    background-color: white;
+    cursor: pointer;
+    margin: 0 0.1rem;
+    opacity: .6;
+}
+
+button:hover{
+    opacity:1!important;
+}
+
+#addBtn{
+    width:3rem;
+    height: 3rem;
+    background-color: rgb(198, 212, 236);
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    opacity: .8;
 }

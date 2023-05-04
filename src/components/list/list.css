@@ -1,12 +1,15 @@
 #new-item{
-    margin: 1rem 0;
     display: flex;
     justify-content: space-between;
+    margin:1rem;
 }
 
 #list{
-    padding:.5rem;
+    padding:0 1rem;
     margin:0;
+    background-color: rgba(236, 241, 250, 0.805);
+    color:black;
+    margin:1rem;
 }
 
 #new-item input{
@@ -19,6 +22,8 @@
 #new-item button{
     width: 3rem;
     font-size: 1.5rem;
+    border-radius: 1.5rem;
+    opacity: .8;
 }
 
 .list-item{
@@ -29,4 +34,8 @@
 .list-item p{
     flex: 1 0 auto;
     margin:0;
+}
+
+.done{
+    text-decoration: line-through;
 }
